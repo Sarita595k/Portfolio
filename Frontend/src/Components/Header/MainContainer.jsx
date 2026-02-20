@@ -1,4 +1,5 @@
-export const MainContainer = () => {
+import "./Header.css"
+const MainContainer = () => {
     return (
         <>
             <div id="mainContainer">
@@ -22,3 +23,5 @@ export const MainContainer = () => {
         </>
     )
 }
+
+export default MainContainer

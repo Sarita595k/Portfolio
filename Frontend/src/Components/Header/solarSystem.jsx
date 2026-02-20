@@ -1,4 +1,4 @@
-export const SolarSystem = () => {
+const SolarSystem = () => {
     return (
         <div id="solarSystemContainer">
             <div class="solar-system">
@@ -25,3 +25,5 @@ export const SolarSystem = () => {
         </div>
     )
 }
+
+export default SolarSystem
