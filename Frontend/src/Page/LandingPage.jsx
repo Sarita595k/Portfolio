@@ -4,11 +4,11 @@ import SolarSystem from '../Components/Header/SolarSystem'
 
 const LandingPage = () => {
     return (
-        <>
+        <div>
             <MainContainer />
             <SubContainer />
             <SolarSystem />
-        </>
+        </div>
     )
 }
 
