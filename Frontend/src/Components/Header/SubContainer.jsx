@@ -1,9 +1,14 @@
+import cloud1 from "../../assets/Header/Cloud1.png"
+import cloud2 from "../../assets/Header/Cloud2.png"
+import sliderBg from "../../assets/Header/slider-bg.jpg"
+import "./Header.css"
 const SubContainer = () => {
     return (<>
-        <div class="container-bg"></div>
-        <marquee id="cloud1" direction="right" scrollamount="4"><img src="./images/Header/Cloud2.png" alt="" /> </marquee>
-        <marquee id="cloud2" direction="right" scrollamount="8"><img src="./images/Header/Cloud1.png" alt="" /></marquee>
-    </>)
+        {/* <div className="container-bg" style={{ backgroundImage: `url(${sliderBg})` }}></div> */}
+        <marquee id="cloud1" direction="right" scrollamount="4"><img src={cloud1} alt="" /> </marquee>
+        <marquee id="cloud2" direction="right" scrollamount="8"><img src={cloud2} alt="" /></marquee>
+    </>
+    )
 }
 
 export default SubContainer
