@@ -1,6 +1,6 @@
 import cloud1 from "../../assets/Header/Cloud1.png"
 import cloud2 from "../../assets/Header/Cloud2.png"
-import sliderBg from "../../assets/Header/slider-bg.jpg"
+
 import "./Header.css"
 const SubContainer = () => {
     return (<>
